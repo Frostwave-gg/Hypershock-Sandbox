@@ -6,4 +6,6 @@ add_executable(Hypershock-Game "${CMAKE_CURRENT_SOURCE_DIR}/Sandbox/src/main.cpp
 
 add_subdirectory("${CMAKE_CURRENT_SOURCE_DIR}/Sandbox/Engine")
 
+set(HYPERSHOCK_BUILD_TYPE "STATIC")
+
 target_link_libraries(Hypershock-Game Hypershock)
