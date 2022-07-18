@@ -1,0 +1,5 @@
+[submodule "Sandbox/Engine/Hypershock"]
+	path = Sandbox/Engine/Hypershock
+	url = git@github.com:Frostwave-gg/Hypershock.git
+	branch = master
+
