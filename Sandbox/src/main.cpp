@@ -5,5 +5,9 @@
 #include "Hypershock.hpp"
 
 void testEntry() {
+    Hypershock::Window window;
 
+    while(!window.ShouldClose()) {
+
+    }
 }
